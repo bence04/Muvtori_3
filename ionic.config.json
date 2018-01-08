@@ -1,8 +1,0 @@
-{
-  "name": "muvtori_3",
-  "app_id": "5c00026d",
-  "type": "ionic-angular",
-  "integrations": {
-    "cordova": {}
-  }
-}
