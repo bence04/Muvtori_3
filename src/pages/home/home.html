@@ -1,14 +1,21 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Művtöri 3 beugró felkészülés
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <span float-left>
+    {{ goodAns }} <i class="far fa-check"></i>
+    {{ wrongAns }} <i class="far fa-times"></i>
+  </span>
+  <span float-right>{{ actualInd }}/{{ dataLength }}</span>
+
+
+  <div>
+    <img src="assets/imgs/{{ src }}" class="img">
+  </div>
+  <button (click)="check()" class="solution-btn">Megoldás</button>
 </ion-content>
