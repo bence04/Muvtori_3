@@ -40,7 +40,7 @@ export class HomePage {
       let percent = this.goodAns / this.dataLength * 100;
       let alert = this.alertCtrl.create({
         title: 'Végeztél az összessel',
-        subTitle: percent + '% a jó válaszaid aránya.',
+        subTitle: Math.round(percent * 100) / 100 + '% a jó válaszaid aránya.',
         buttons: [{
           text: 'Újra',
           handler: () => {

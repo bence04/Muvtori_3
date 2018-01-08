@@ -90,9 +90,9 @@ var HomePage = (function () {
         var _this = this;
         if (this.actualInd == this.dataLength) {
             var percent = this.goodAns / this.dataLength * 100;
-            var alert_1 = this.alertCtrl.create({
+            var alert = this.alertCtrl.create({
                 title: 'Végeztél az összessel',
-                subTitle: percent + '% a jó válaszaid aránya.',
+                subTitle: Math.round(percent * 100) / 100 + '% a jó válaszaid aránya.',
                 buttons: [{
                         text: 'Újra',
                         handler: function () {
@@ -104,7 +104,7 @@ var HomePage = (function () {
                         }
                     }]
             });
-            alert_1.present();
+            alert.present();
         }
         else {
             this.src = this.data[this.actualInd].src;
@@ -143,9 +143,10 @@ var HomePage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-home',template:/*ion-inline-start:"/Users/bencetoth/Github/Muvtori_3/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Művtöri 3 beugró felkészülés\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <span float-left>\n    {{ goodAns }} <i class="far fa-check"></i>\n    {{ wrongAns }} <i class="far fa-times"></i>\n  </span>\n  <span float-right>{{ actualInd }}/{{ dataLength }}</span>\n\n\n  <div>\n    <img src="assets/imgs/{{ src }}" class="img">\n  </div>\n  <button (click)="check()" class="solution-btn">Megoldás</button>\n</ion-content>\n'/*ion-inline-end:"/Users/bencetoth/Github/Muvtori_3/src/pages/home/home.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__angular_common_http__["a" /* HttpClient */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_common_http__["a" /* HttpClient */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_common_http__["a" /* HttpClient */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _c || Object])
     ], HomePage);
     return HomePage;
+    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=home.js.map
