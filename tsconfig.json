@@ -1,7 +1,5 @@
 {
   "compilerOptions": {
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
     "allowSyntheticDefaultImports": true,
     "declaration": false,
     "emitDecoratorMetadata": true,
