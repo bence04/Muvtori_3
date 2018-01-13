@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+## Művészettörténet 3 gyakorló alkalmazás
 
-You can use the [editor on GitHub](https://github.com/bence04/Muvtori_3/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Ionic3 és Angular5 segítségével készült mobil alkalmazás, mely egy mobilra optimalizál webes felülettel is rendelkezik (http://bence04.github.io/muvtori_3/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Célja a NBB_RA939K2 tárgykódú tárgy vizsga beugrójára való felkészítés. (Eszterházy Károly Egyetem Művészettörténet 3)
 
-### Markdown
+### Használat
+Bal oldalon felül látszik az eddig eltalált és az eddig elrontott képek száma, jobb oldalon pedig az összes kép menyisége. Az alkalmazás véletlenszerűen feldob egy képet és a "Megoldás" gombra kattintva feldobja az alkotó nevét és a kép címét. Itt ki lehet választani, hogy tudtuk-e vagy nem. Ha a végére értünk akkor kiírja, hogy hány %-ban volt jó és előről lehet kezdeni új sorrenddel.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Közreműködés
 
-```markdown
-Syntax highlighted code block
+Az alkalmazás futtatásához szükség van NodeJS-re illetve Ionic3-ra.
 
-# Header 1
-## Header 2
-### Header 3
+#### Futtatás
+- npm install
+- ionic cordova prepare
+- ionic serve
 
-- Bulleted
-- List
+#### Új kép hozzáadása
+- src/assets/imgs/ mappába kell a képet feltölteni
+- src/assets/img.json fájlba pedig hozzáadni.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+{
+  "name": "KÉP NEVE",
+  "author": "KÉSZÍTŐ NEVE",
+  "src": "KÉP CÍME"
+}
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bence04/Muvtori_3/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Egyéb információk: toth.bence [AT] simonyi [DOT] bme [DOT] hu
