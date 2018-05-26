@@ -1,1 +1,282 @@
-webpackJsonp([0],{126:function(n,l){function a(n){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+n+"'.")})}a.keys=function(){return[]},a.resolve=a,n.exports=a,a.id=126},160:function(n,l){function a(n){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+n+"'.")})}a.keys=function(){return[]},a.resolve=a,n.exports=a,a.id=160},188:function(n,l,a){"use strict";Object.defineProperty(l,"__esModule",{value:!0});var u=a(33),t=a(0),e=(a(5),a(54),a(73)),o=a(74),r=a(75),i=(a(225),a(226),function(){function n(n,l,a){var u=this;this.navCtrl=n,this.http=l,this.alertCtrl=a,this.goodAns=0,this.wrongAns=0,this.actualInd=0,this.src="",this.dataLength=0,this.http.get("assets/img.json").subscribe(function(n){u.data=u.shuffle(n),u.dataLength=Object.keys(u.data).length,u.loadPicture()})}return n.prototype.shuffle=function(n){for(var l=n.length-1;l>0;l--){var a=Math.floor(Math.random()*(l+1));n[l]=(u=[n[a],n[l]])[0],n[a]=u[1]}return n;var u},n.prototype.loadPicture=function(){var n=this;this.actualInd==this.dataLength?this.alertCtrl.create({title:"Végeztél az összessel",subTitle:Math.round(100*(this.goodAns/this.dataLength*100))/100+"% a jó válaszaid aránya.",buttons:[{text:"Újra",handler:function(){n.goodAns=0,n.wrongAns=0,n.data=n.shuffle(n.data),n.actualInd=0,n.loadPicture()}}]}).present():this.src=this.data[this.actualInd].src},n.prototype.check=function(){this.presentConfirm()},n.prototype.presentConfirm=function(){var n=this;this.alertCtrl.create({title:this.data[this.actualInd].name,message:this.data[this.actualInd].author,buttons:[{text:"Tudtam 😀",handler:function(){n.goodAns++,n.actualInd++,n.loadPicture()}},{text:"Nem tudtam 😞",handler:function(){n.wrongAns++,n.actualInd++,n.loadPicture()}}]}).present()},n}()),s=function(){return function(n,l,a){this.rootPage=i,n.ready().then(function(){l.styleDefault(),a.hide()})}}(),_=function(){return function(){}}(),c=a(44),d=a(229),h=a(230),f=a(231),b=a(232),g=a(233),p=a(234),m=a(235),v=a(236),k=a(237),j=a(238),y=a(35),Z=a(50),w=a(4),P=a(17),z=a(8),A=a(1),I=a(3),C=a(7),M=a(28),Y=a(14),O=a(9),x=t.X({encapsulation:2,styles:[],data:{}});function L(n){return t._19(0,[(n()(),t.Z(0,0,null,null,2,"ion-nav",[],null,null,null,j.b,j.a)),t._15(6144,null,y.a,null,[Z.a]),t.Y(2,4374528,null,0,Z.a,[[2,w.a],[2,P.a],z.a,A.a,I.a,t.j,t.u,t.z,t.i,C.l,M.a,[2,Y.a],O.a,t.k],{root:[0,"root"]},null),(n()(),t._18(-1,null,["\n"]))],function(n,l){n(l,2,0,l.component.rootPage)},null)}var T=t.V("ng-component",s,function(n){return t._19(0,[(n()(),t.Z(0,0,null,null,1,"ng-component",[],null,null,null,L,x)),t.Y(1,49152,null,0,s,[I.a,o.a,e.a],null,null)],null,null)},{},{},[]),X=a(105),E=a(239),q=a(32),F=a(240),N=a(72),R=a(40),S=a(241),V=a(21),D=a(30),G=a(59),K=t.X({encapsulation:2,styles:[],data:{}});function B(n){return t._19(0,[(n()(),t.Z(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),t.Y(1,16384,null,0,X.a,[A.a,t.j,t.z,[2,w.a]],null,null),(n()(),t._18(-1,null,["\n  "])),(n()(),t.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,E.b,E.a)),t.Y(4,49152,null,0,q.a,[z.a,[2,w.a],[2,P.a],A.a,t.j,t.z],null,null),(n()(),t._18(-1,3,["\n    "])),(n()(),t.Z(6,0,null,3,2,"ion-title",[],null,null,null,F.b,F.a)),t.Y(7,49152,null,0,N.a,[A.a,t.j,t.z,[2,R.a],[2,q.a]],null,null),(n()(),t._18(-1,0,["\n      Művtöri 3 felkészülés\n    "])),(n()(),t._18(-1,3,["\n  "])),(n()(),t._18(-1,null,["\n"])),(n()(),t._18(-1,null,["\n\n"])),(n()(),t.Z(12,0,null,null,20,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,S.b,S.a)),t.Y(13,4374528,null,0,V.a,[A.a,I.a,O.a,t.j,t.z,z.a,D.a,t.u,[2,w.a],[2,P.a]],null,null),(n()(),t._18(-1,1,["\n  "])),(n()(),t.Z(15,0,null,1,5,"span",[["float-left",""]],null,null,null,null,null)),(n()(),t._18(16,null,["\n    "," "])),(n()(),t.Z(17,0,null,null,0,"i",[["class","far fa-check"]],null,null,null,null,null)),(n()(),t._18(18,null,["\n    "," "])),(n()(),t.Z(19,0,null,null,0,"i",[["class","far fa-times"]],null,null,null,null,null)),(n()(),t._18(-1,null,["\n  "])),(n()(),t._18(-1,1,["\n  "])),(n()(),t.Z(22,0,null,1,1,"span",[["float-right",""]],null,null,null,null,null)),(n()(),t._18(23,null,["","/",""])),(n()(),t._18(-1,1,["\n\n\n  "])),(n()(),t.Z(25,0,null,1,3,"div",[],null,null,null,null,null)),(n()(),t._18(-1,null,["\n    "])),(n()(),t.Z(27,0,null,null,0,"img",[["class","img"]],[[8,"src",4]],null,null,null,null)),(n()(),t._18(-1,null,["\n  "])),(n()(),t._18(-1,1,["\n  "])),(n()(),t.Z(30,0,null,1,1,"button",[["class","solution-btn"]],null,[[null,"click"]],function(n,l,a){var u=!0;"click"===l&&(u=!1!==n.component.check()&&u);return u},null,null)),(n()(),t._18(-1,null,["Megoldás"])),(n()(),t._18(-1,1,["\n"])),(n()(),t._18(-1,null,["\n"]))],null,function(n,l){var a=l.component;n(l,3,0,t._13(l,4)._hidden,t._13(l,4)._sbPadding),n(l,12,0,t._13(l,13).statusbarPadding,t._13(l,13)._hasRefresher),n(l,16,0,a.goodAns),n(l,18,0,a.wrongAns),n(l,23,0,a.actualInd,a.dataLength),n(l,27,0,t._2(1,"./assets/imgs/",a.src,""))})}var J=t.V("page-home",i,function(n){return t._19(0,[(n()(),t.Z(0,0,null,null,1,"page-home",[],null,null,null,B,K)),t.Y(1,49152,null,0,i,[P.a,r.c,G.a],null,null)],null,null)},{},{},[]),W=a(12),H=a(113),Q=a(18),U=a(82),$=a(110),nn=a(16),ln=a(31),an=a(90),un=a(185),tn=a(46),en=a(39),on=a(92),rn=a(60),sn=a(97),_n=a(109),cn=a(104),dn=a(184),hn=a(111),fn=a(26),bn=a(91),gn=a(112),pn=t.W(_,[c.b],function(n){return t._10([t._11(512,t.i,t.S,[[8,[d.a,h.a,f.a,b.a,g.a,p.a,m.a,v.a,k.a,T,J]],[3,t.i],t.s]),t._11(5120,t.r,t._9,[[3,t.r]]),t._11(4608,W.k,W.j,[t.r,[2,W.s]]),t._11(5120,t.b,t._0,[]),t._11(5120,t.p,t._6,[]),t._11(5120,t.q,t._7,[]),t._11(4608,u.c,u.q,[W.c]),t._11(6144,t.D,null,[u.c]),t._11(4608,u.f,H.a,[]),t._11(5120,u.d,function(n,l,a,t,e){return[new u.k(n,l),new u.o(a),new u.n(t,e)]},[W.c,t.u,W.c,W.c,u.f]),t._11(4608,u.e,u.e,[u.d,t.u]),t._11(135680,u.m,u.m,[W.c]),t._11(4608,u.l,u.l,[u.e,u.m]),t._11(6144,t.B,null,[u.l]),t._11(6144,u.p,null,[u.m]),t._11(4608,t.G,t.G,[t.u]),t._11(4608,u.h,u.h,[W.c]),t._11(4608,u.i,u.i,[W.c]),t._11(4608,r.h,r.m,[W.c,t.w,r.k]),t._11(4608,r.n,r.n,[r.h,r.l]),t._11(5120,r.a,function(n){return[n]},[r.n]),t._11(4608,r.j,r.j,[]),t._11(6144,r.i,null,[r.j]),t._11(4608,r.g,r.g,[r.i]),t._11(6144,r.b,null,[r.g]),t._11(5120,r.f,r.o,[r.b,[2,r.a]]),t._11(4608,r.c,r.c,[r.f]),t._11(4608,Q.k,Q.k,[]),t._11(4608,Q.c,Q.c,[]),t._11(4608,U.a,U.a,[z.a,A.a]),t._11(4608,G.a,G.a,[z.a,A.a]),t._11(4608,$.a,$.a,[]),t._11(4608,nn.a,nn.a,[]),t._11(4608,ln.a,ln.a,[I.a]),t._11(4608,D.a,D.a,[A.a,I.a,t.u,O.a]),t._11(4608,an.a,an.a,[z.a,A.a]),t._11(5120,W.f,un.b,[W.q,[2,W.a],A.a]),t._11(4608,W.e,W.e,[W.f]),t._11(5120,tn.b,tn.d,[z.a,tn.a]),t._11(5120,Y.a,Y.b,[z.a,tn.b,W.e,en.b,t.i]),t._11(4608,on.a,on.a,[z.a,A.a,Y.a]),t._11(4608,rn.a,rn.a,[z.a,A.a]),t._11(4608,sn.a,sn.a,[z.a,A.a,Y.a]),t._11(4608,_n.a,_n.a,[A.a,I.a,O.a,z.a,C.l]),t._11(4608,cn.a,cn.a,[z.a,A.a]),t._11(4608,M.a,M.a,[I.a,A.a]),t._11(4608,o.a,o.a,[]),t._11(4608,e.a,e.a,[]),t._11(512,W.b,W.b,[]),t._11(512,t.k,dn.a,[]),t._11(256,A.b,{},[]),t._11(1024,hn.a,hn.b,[]),t._11(1024,I.a,I.b,[u.b,hn.a,t.u]),t._11(1024,A.a,A.c,[A.b,I.a]),t._11(512,O.a,O.a,[I.a]),t._11(512,fn.a,fn.a,[]),t._11(512,z.a,z.a,[A.a,I.a,[2,fn.a]]),t._11(512,C.l,C.l,[z.a]),t._11(256,tn.a,{links:[]},[]),t._11(512,t.h,t.h,[]),t._11(512,bn.a,bn.a,[t.h]),t._11(1024,en.b,en.c,[bn.a,t.o]),t._11(1024,t.c,function(n,l,a,t,e,o,r,i,s,_,c,d,h){return[u.s(n),gn.a(l),$.b(a,t),_n.b(e,o,r,i,s),en.d(_,c,d,h)]},[[2,t.t],A.a,I.a,O.a,A.a,I.a,O.a,z.a,C.l,A.a,tn.a,en.b,t.u]),t._11(512,t.d,t.d,[[2,t.c]]),t._11(131584,t.f,t.f,[t.u,t.T,t.o,t.k,t.i,t.d]),t._11(512,t.e,t.e,[t.f]),t._11(512,u.a,u.a,[[3,u.a]]),t._11(512,r.e,r.e,[]),t._11(512,r.d,r.d,[]),t._11(512,Q.j,Q.j,[]),t._11(512,Q.d,Q.d,[]),t._11(512,Q.i,Q.i,[]),t._11(512,un.a,un.a,[]),t._11(512,_,_,[]),t._11(256,r.k,"XSRF-TOKEN",[]),t._11(256,r.l,"X-XSRF-TOKEN",[]),t._11(256,c.a,s,[]),t._11(256,W.a,"/",[])])});Object(t.M)(),Object(u.j)().bootstrapModuleFactory(pn)}},[188]);
+webpackJsonp([0],{
+
+/***/ 112:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 112;
+
+/***/ }),
+
+/***/ 153:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 153;
+
+/***/ }),
+
+/***/ 198:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common_http__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(277);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+var HomePage = (function () {
+    function HomePage(navCtrl, http, alertCtrl) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.http = http;
+        this.alertCtrl = alertCtrl;
+        this.goodAns = 0;
+        this.wrongAns = 0;
+        this.actualInd = 0;
+        this.src = "";
+        this.dataLength = 0;
+        this.http.get("assets/img.json").subscribe(function (res) {
+            _this.data = _this.shuffle(res);
+            _this.dataLength = Object.keys(_this.data).length;
+            _this.loadPicture();
+        });
+    }
+    HomePage.prototype.shuffle = function (a) {
+        for (var i = a.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            _a = [a[j], a[i]], a[i] = _a[0], a[j] = _a[1];
+        }
+        return a;
+        var _a;
+    };
+    HomePage.prototype.loadPicture = function () {
+        var _this = this;
+        if (this.actualInd == this.dataLength) {
+            var percent = this.goodAns / this.dataLength * 100;
+            var alert_1 = this.alertCtrl.create({
+                title: "Végeztél az összessel",
+                subTitle: Math.round(percent * 100) / 100 + "% a jó válaszaid aránya.",
+                buttons: [
+                    {
+                        text: "Újra",
+                        handler: function () {
+                            _this.goodAns = 0;
+                            _this.wrongAns = 0;
+                            _this.data = _this.shuffle(_this.data);
+                            _this.actualInd = 0;
+                            _this.loadPicture();
+                        }
+                    }
+                ]
+            });
+            alert_1.present();
+        }
+        else {
+            this.src = this.data[this.actualInd].src;
+        }
+    };
+    HomePage.prototype.check = function () {
+        this.presentConfirm();
+    };
+    HomePage.prototype.presentConfirm = function () {
+        var _this = this;
+        var alert = this.alertCtrl.create({
+            title: this.data[this.actualInd].name,
+            message: this.data[this.actualInd].author,
+            buttons: [
+                {
+                    text: "Tudtam 😀",
+                    handler: function () {
+                        _this.goodAns++;
+                        _this.actualInd++;
+                        _this.loadPicture();
+                    }
+                },
+                {
+                    text: "Nem tudtam 😞",
+                    handler: function () {
+                        _this.wrongAns++;
+                        _this.actualInd++;
+                        _this.loadPicture();
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
+    HomePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: "page-home",template:/*ion-inline-start:"/Users/bencetoth/Github/muvtori_3/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Művtöri 4 felkészülés\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <span float-left>\n    {{ goodAns }}\n    <i class="far fa-check"></i>\n    {{ wrongAns }}\n    <i class="far fa-times"></i>\n  </span>\n  <span float-right>{{ actualInd }}/{{ dataLength }}</span>\n\n\n  <div>\n    <img src="./assets/imgs/{{ src }}" class="img">\n  </div>\n  <button (click)="check()" class="solution-btn">Megoldás</button>\n</ion-content>\n'/*ion-inline-end:"/Users/bencetoth/Github/muvtori_3/src/pages/home/home.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_2__angular_common_http__["a" /* HttpClient */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
+    ], HomePage);
+    return HomePage;
+}());
+
+//# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 199:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(221);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 221:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_common_http__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(276);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(198);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+var AppModule = (function () {
+    function AppModule() {
+    }
+    AppModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_home_home__["a" /* HomePage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_5__angular_common_http__["b" /* HttpClientModule */],
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */], {}, {
+                    links: []
+                })
+            ],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicApp */]],
+            entryComponents: [
+                __WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_home_home__["a" /* HomePage */]
+            ],
+            providers: [
+                __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */],
+                { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] }
+            ]
+        })
+    ], AppModule);
+    return AppModule;
+}());
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 276:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(198);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var MyApp = (function () {
+    function MyApp(platform, statusBar, splashScreen) {
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */];
+        platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            statusBar.styleDefault();
+            splashScreen.hide();
+        });
+    }
+    MyApp = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/bencetoth/Github/muvtori_3/src/app/app.html"*/'<ion-nav [root]="rootPage" class="wrapper"></ion-nav>\n'/*ion-inline-end:"/Users/bencetoth/Github/muvtori_3/src/app/app.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+    ], MyApp);
+    return MyApp;
+}());
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ })
+
+},[199]);
+//# sourceMappingURL=main.js.map
