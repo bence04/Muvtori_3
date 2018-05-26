@@ -1,11 +1,701 @@
 [{
-  "name": "",
-  "author": "",
-  "src": ""
+  "name": "A firenzei dóm kupolája",
+  "author": "Brunelleschi",
+  "src": "image1.png"
 },
 {
-  "name": "",
+  "name": "Ospedale degli Innocenti",
+  "author": "Brunelleschi",
+  "src": "image1.png"
+},
+{
+  "name": "Pazzi kápolna",
+  "author": "Brunelleschi",
+  "src": "image1.png"
+},
+{
+  "name": "Pazzi kápolna",
+  "author": "Brunelleschi",
+  "src": "image1.png"
+},
+{
+  "name": "Palazzo Strozzi, Firenze",
+  "author": "Benedetto Maiano – Cronaca",
+  "src": "image1.png"
+},
+{
+  "name": "Palazzo Medici-Riccardi, Firenze",
+  "author": "Michelozzo de Bartolommeo",
+  "src": "image1.png"
+},
+{
+  "name": "Palazzo Rucellai",
+  "author": "Alberti",
+  "src": "image1.png"
+},
+{
+  "name": "Sant’Andrea, Mantova",
+  "author": "Alberti",
+  "src": "image1.png"
+},
+{
+  "name": "Sant’Andrea, Mantova",
+  "author": "Alberti",
+  "src": "image1.png"
+},
+{
+  "name": "Tempietto",
+  "author": "Bramante",
+  "src": "image1.png"
+},
+{
+  "name": "Villa Rotonda",
+  "author": "Palladio",
+  "src": "image1.png"
+},
+{
+  "name": "Villa Rotonda",
+  "author": "Palladio",
+  "src": "image1.png"
+},
+{
+  "name": "Corvin Mátyás és Beatrix portréja",
   "author": "",
-  "src": ""
+  "src": "image1.png"
+},
+{
+  "name": "Mátyás-kálvária",
+  "author": "",
+  "src": "image1.png"
+},
+{
+  "name": "Oroszlános kút, Visegrád",
+  "author": "",
+  "src": "image1.png"
+},
+{
+  "name": "Bakócz-kápolna, Esztergom",
+  "author": "",
+  "src": "image1.png"
+},
+{
+  "name": "Bakócz-kápolna, Esztergom",
+  "author": "",
+  "src": "image1.png"
+},
+{
+  "name": "Bakócz-kápolna, Esztergom",
+  "author": "",
+  "src": "image1.png"
+},
+{
+  "name": "Gyümölcsös kosár",
+  "author": "Caravaggio",
+  "src": "image1.png"
+},
+{
+  "name": "Bacchus",
+  "author": "Caravaggio",
+  "src": "image1.png"
+},{
+  "name": "Hamiskártyások",
+  "author": "Caravaggio",
+  "src": "image1.png"
+},
+{
+  "name": "Bűnbánó Madonna",
+  "author": "Caravaggio",
+  "src": "image1.png"
+},
+{
+  "name": "Judit levágja Holofernész fejét",
+  "author": "Caravaggio",
+  "src": "image1.png"
+},
+{
+  "name": "Szent Máté elhívása, Máté mártíromsága, Máté és az angyal",
+  "author": "Caravaggio",
+  "src": "image1.png"
+},
+{
+  "name": "Szent Máté elhívása, Máté mártíromsága, Máté és az angyal",
+  "author": "Caravaggio",
+  "src": "image1.png"
+},
+{
+  "name": "Szent Máté elhívása, Máté mártíromsága, Máté és az angyal",
+  "author": "Caravaggio",
+  "src": "image1.png"
+},
+{
+  "name": "Szent Péter keresztrefeszítése, Szent Pál megtérése",
+  "author": "Caravaggio",
+  "src": "image1.png"
+},
+{
+  "name": "Szent Péter keresztrefeszítése, Szent Pál megtérése",
+  "author": "Caravaggio",
+  "src": "image1.png"
+},
+{
+  "name": "Sírbatétel",
+  "author": "Caravaggio",
+  "src": "image1.png"
+},
+{
+  "name": "Mária halála",
+  "author": "Caravaggio",
+  "src": "image1.png"
+},
+{
+  "name": "Vanitas",
+  "author": "Pieter Claesz",
+  "src": "image1.png"
+},
+{
+  "name": "Csendélet tengeri kagylóból készült kupával",
+  "author": "Willem Kalf",
+  "src": "image1.png"
+},
+{
+  "name": "Csendélet",
+  "author": "Floris van Dyck",
+  "src": "image1.png"
+},
+{
+  "name": "Eső után",
+  "author": "Salomon van Ruisdael",
+  "src": "image1.png"
+},
+{
+  "name": "Haarlem látképe",
+  "author": "Jacob Ruisdael",
+  "src": "image1.png"
+},
+{
+  "name": "Szélmalom",
+  "author": "Jacob Ruisdael",
+  "src": "image1.png"
+},
+{
+  "name": "Delft látképe",
+  "author": "Jan Vermeer",
+  "src": "image1.png"
+},
+{
+  "name": "Gyöngymérő nő",
+  "author": "Jan Vermeer",
+  "src": "image1.png"
+},
+{
+  "name": "tejet öntő nő",
+  "author": "Jan Vermeer",
+  "src": "image1.png"
+},
+{
+  "name": "Lány gyöngyfülbevalóval",
+  "author": "Jan Vermeer",
+  "src": "image1.png"
+},{
+  "name": "Műterem/Festőművészet/A festészet allegóriája",
+  "author": "Jan Vermeer",
+  "src": "image1.png"
+},
+{
+  "name": "Vidám társaság",
+  "author": "Jan Vermeer",
+  "src": "image1.png"
+},
+{
+  "name": "Doktor Tulp anatómiája",
+  "author": "Rembrandt",
+  "src": "image1.png"
+},
+{
+  "name": "Éjjeli őrjárat",
+  "author": "Rembrandt",
+  "src": "image1.png"
+},
+{
+  "name": "A posztóscéh elöljárói",
+  "author": "Rembrandt",
+  "src": "image1.png"
+},
+{
+  "name": "Rembrandt és Saskia",
+  "author": "Rembrandt",
+  "src": "image1.png"
+},
+{
+  "name": "A tékozló fiú",
+  "author": "Rembrandt",
+  "src": "image1.png"
+},
+{
+  "name": "Fürdőző",
+  "author": "Rembrandt",
+  "src": "image1.png"
+},
+{
+  "name": "Három kereszt",
+  "author": "Rembrandt",
+  "src": "image1.png"
+},
+{
+  "name": "Százforintos lap",
+  "author": "Rembrandt",
+  "src": "image1.png"
+},
+{
+  "name": "a Palazzo Farnese galériájának mennyezetképe",
+  "author": "Annibale Carracci",
+  "src": "image1.png"
+},
+{
+  "name": "Az isteni gondviselés áldásos hatása, Palazzo Barberini",
+  "author": "Pietro da Cortona",
+  "src": "image1.png"
+},
+{
+  "name": "Loyolai Szent Ignác megdicsőülése, Sant’Ignazio, Róma, 1684-94",
+  "author": "Andrea del Pozzo",
+  "src": "image1.png"
+},
+{
+  "name": "Artemisia Gentileschi önarcképe (Festészet), 1630-as évek",
+  "author": "",
+  "src": "image1.png"
+},
+{
+  "name": "Mannahullás, 1637-39",
+  "author": "Nicolas Poussin",
+  "src": "image1.png"
+},
+{
+  "name": "Kígyómarás, 1648",
+  "author": "Nicolas Poussin",
+  "src": "image1.png"
+},
+{
+  "name": "Tájkép Polyphemus-szal, 1649",
+  "author": "Nicolas Poussin",
+  "src": "image1.png"
+},
+{
+  "name": "Önarckép, 1650",
+  "author": "Nicolas Poussin",
+  "src": "image1.png"
+},
+{
+  "name": "Et inArcadia ego, 1637-38",
+  "author": "Nicolas Poussin",
+  "src": "image1.png"
+},
+{
+  "name": "Villa a római Campagnán, 1640",
+  "author": "Claude Lorrain",
+  "src": "image1.png"
+},{
+  "name": "Kikötő napfelkeltében, 1674",
+  "author": "Claude Lorrain",
+  "src": "image1.png"
+},
+{
+  "name": "Rokeby Vénusz",
+  "author": "Velazquez",
+  "src": "image1.png"
+},
+{
+  "name": "X. Ince pápa portréja",
+  "author": "Velazquez",
+  "src": "image1.png"
+},
+{
+  "name": "Étkező parasztok",
+  "author": "Velazquez",
+  "src": "image1.png"
+},
+{
+  "name": "Krisztus Mária és Márta házában",
+  "author": "Velazquez",
+  "src": "image1.png"
+},
+{
+  "name": "Bacchus diadala",
+  "author": "Velazquez",
+  "src": "image1.png"
+},
+{
+  "name": "Breda átadása",
+  "author": "Velazquez",
+  "src": "image1.png"
+},
+{
+  "name": "Udvarhölgyek",
+  "author": "Velazquez",
+  "src": "image1.png"
+},
+{
+  "name": "Szövőnők",
+  "author": "Velazquez",
+  "src": "image1.png"
+},
+{
+  "name": "Leukipposz lányainak elrablása",
+  "author": "Rubens",
+  "src": "image1.png"
+},
+{
+  "name": "Önarckép",
+  "author": "Rubens",
+  "src": "image1.png"
+},
+{
+  "name": "Oroszlánvadászat",
+  "author": "Rubens",
+  "src": "image1.png"
+},
+{
+  "name": "Tájkép szivárvánnyal",
+  "author": "Rubens",
+  "src": "image1.png"
+},
+{
+  "name": "A négy filozófus",
+  "author": "Rubens",
+  "src": "image1.png"
+},
+{
+  "name": "XIV. Lajos",
+  "author": "Rigaud",
+  "src": "image1.png"
+},
+{
+  "name": "I. Károly és lovásza",
+  "author": "Anton Van Dyck",
+  "src": "image1.png"
+},
+{
+  "name": "Szent Péter tér, Róma",
+  "author": "Bernini",
+  "src": "image1.png"
+},
+{
+  "name": "Scala regia",
+  "author": "Bernini",
+  "src": "image1.png"
+},
+{
+  "name": "Il Gesú, Róma",
+  "author": "Giacomo Vignola- Giacomo della Porta",
+  "src": "image1.png"
+},
+{
+  "name": "Il Gesú, Róma",
+  "author": "Giacomo Vignola- Giacomo della Porta",
+  "src": "image1.png"
+},{
+  "name": "Val-deGrace, Párizs",
+  "author": "Francois Mansart",
+  "src": "image1.png"
+},
+{
+  "name": "Sant’Andrea al Quirinale",
+  "author": "Gian Lorenzo Bernini",
+  "src": "image1.png"
+},
+{
+  "name": "Invalidusok dómja, Párizs",
+  "author": "Jules Hardouin-Mansart",
+  "src": "image1.png"
+},
+{
+  "name": "Szent Teréz extázisa",
+  "author": "Bernini",
+  "src": "image1.png"
+},
+{
+  "name": "Szent Teréz extázisa",
+  "author": "Bernini",
+  "src": "image1.png"
+},
+{
+  "name": "Proserpina elrablása",
+  "author": "Bernini",
+  "src": "image1.png"
+},
+{
+  "name": "Apolló és Daphné",
+  "author": "Bernini",
+  "src": "image1.png"
+},
+{
+  "name": "San Pietro baldachinja",
+  "author": "Bernini",
+  "src": "image1.png"
+},
+{
+  "name": "VIII. Orbán síremléke és VII. Sándor síremléke",
+  "author": "Bernini",
+  "src": "image1.png"
+},
+{
+  "name": "VIII. Orbán síremléke és VII. Sándor síremléke",
+  "author": "Bernini",
+  "src": "image1.png"
+},
+{
+  "name": "Ludovica Albertoni",
+  "author": "Bernini",
+  "src": "image1.png"
+},
+{
+  "name": "San Carlo alle Quattro Fontane",
+  "author": "Francesco Borromini",
+  "src": "image1.png"
+},
+{
+  "name": "Vaux-le-Vicomte kastély",
+  "author": "",
+  "src": "image1.png"
+},
+{
+  "name": "Vaux-le-Vicomte kastély",
+  "author": "",
+  "src": "image1.png"
+},
+{
+  "name": "Versailles alaprajz, Tükörterem",
+  "author": "",
+  "src": "image1.png"
+},
+{
+  "name": "Versailles alaprajz, Tükörterem",
+  "author": "",
+  "src": "image1.png"
+},
+{
+  "name": "Amalienburg ovális Tükörterme, Nymphenburgkastélyegyüttesben",
+  "author": "Francois Cuvilliés",
+  "src": "image1.png"
+},
+{
+  "name": "Würzburg (Bajorország), érseki palota, 1720-44 (homlokzat, lépcsőház, díszterem, Tiepolo freskó)",
+  "author": "",
+  "src": "image1.png"
+},
+{
+  "name": "Würzburg (Bajorország), érseki palota, 1720-44 (homlokzat, lépcsőház, díszterem, Tiepolo freskó)",
+  "author": "",
+  "src": "image1.png"
+},
+{
+  "name": "Würzburg (Bajorország), érseki palota, 1720-44 (homlokzat, lépcsőház, díszterem, Tiepolo freskó)",
+  "author": "",
+  "src": "image1.png"
+},{
+  "name": "Zwinger,  Drezda",
+  "author": "MatthausPöppelmann",
+  "src": "image1.png"
+},
+{
+  "name": "Karlskirche (Károly templom), Bécs, 1716-37 ",
+  "author": "J.B. Fischer von Erlach",
+  "src": "image1.png"
+},
+{
+  "name": "Kismarton, Esterházy-kastély, 1663-1672",
+  "author": "",
+  "src": "image1.png"
+},
+{
+  "name": "II. Rákóczi Ferenc portréja, 1712",
+  "author": "Mányoki Ádám",
+  "src": "image1.png"
+},
+{
+  "name": "Önarckép, 1711",
+  "author": "Mányoki Ádám",
+  "src": "image1.png"
+},
+{
+  "name": "Savoyai-kastély, Ráckeve",
+  "author": "",
+  "src": "image1.png"
+},
+{
+  "name": "Savoyai-kastély, Ráckeve",
+  "author": "",
+  "src": "image1.png"
+},
+{
+  "name": "Grassalkovich-kastély, Gödöllő",
+  "author": "Mayerhoffer András",
+  "src": "image1.png"
+},
+{
+  "name": "Fertőd, Esterházy kastély",
+  "author": "",
+  "src": "image1.png"
+},
+{
+  "name": "Fertőd, Esterházy kastély",
+  "author": "",
+  "src": "image1.png"
+},
+{
+  "name": "Messerschmidt, karakterfejek",
+  "author": "",
+  "src": "image1.png"
+},
+{
+  "name": "Messerschmidt, karakterfejek",
+  "author": "",
+  "src": "image1.png"
+},
+{
+  "name": "Messerschmidt, karakterfejek",
+  "author": "",
+  "src": "image1.png"
+},
+{
+  "name": "Messerschmidt, karakterfejek",
+  "author": "",
+  "src": "image1.png"
+},
+{
+  "name": "Messerschmidt, karakterfejek",
+  "author": "",
+  "src": "image1.png"
+},
+{
+  "name": "Líceum kápolnája (festmény)",
+  "author": "Maulbertsch",
+  "src": "image1.png"
+},
+{
+  "name": "Líceum, Eger",
+  "author": "Joseph Gerl-Fellner Jakab",
+  "src": "image1.png"
+},
+{
+  "name": "Líceum, Eger",
+  "author": "Joseph Gerl-Fellner Jakab",
+  "src": "image1.png"
+},
+{
+  "name": "Líceum, Eger, könyvtár mennyezetfreskója ",
+  "author": "Johann Lucas Kracker és Joseph Zach",
+  "src": "image1.png"
+},
+{
+  "name": "A négy fakultás, Líceum, Eger, díszterem (vizsgaterem) freskója",
+  "author": "Franz Sigrist",
+  "src": "image1.png"
+},
+{
+  "name": "Minorita templom (Szent Antal), Eger",
+  "author": "",
+  "src": "image1.png"
+},
+{
+  "name": "Fazola Henrik díszkapuja, Eger, Megyaháza",
+  "author": "",
+  "src": "image1.png"
+},
+{
+  "name": "Indulás Küthéra szigetére (Hazatérés Küthéra szigetéről)",
+  "author": "Antoine Watteau",
+  "src": "image1.png"
+},
+{
+  "name": "A Nagy Gilles",
+  "author": "Antoine Watteau",
+  "src": "image1.png"
+},
+{
+  "name": "Diana fürdő után",
+  "author": "Francois Boucher",
+  "src": "image1.png"
+},
+{
+  "name": "Mme Pompadour",
+  "author": "Francois Boucher",
+  "src": "image1.png"
+},
+{
+  "name": "A hinta",
+  "author": "Jean-Honore Fragonard",
+  "src": "image1.png"
+},
+{
+  "name": "Asztali áldás",
+  "author": "Jean-Baptiste-Siméon Chardin",
+  "src": "image1.png"
+},
+{
+  "name": "Szappanbuborék",
+  "author": "Chardin",
+  "src": "image1.png"
+},
+{
+  "name": "Lady Cockburn és három legidősebb gyermeke",
+  "author": "Joshua Reynolds",
+  "src": "image1.png"
+},
+{
+  "name": "Robert Andrews és felesége",
+  "author": "Thomas Gainsborough",
+  "src": "image1.png"
+},
+{
+  "name": "Mary Howe grófnő",
+  "author": "Thomas Gainsborough",
+  "src": "image1.png"
+},
+{
+  "name": "A festő lányai (pillangót kergetve)",
+  "author": "Thomas Gainsborough",
+  "src": "image1.png"
+},
+{
+  "name": "Piacra tartó szekér",
+  "author": "Thomas Gainsborough",
+  "src": "image1.png"
+},
+{
+  "name": "Divatos házasság",
+  "author": "William Hogarth",
+  "src": "image1.png"
+},
+{
+  "name": "Szolgálók",
+  "author": "William Hogarth",
+  "src": "image1.png"
+},
+{
+  "name": "Chiswick House London",
+  "author": "Lord Burlington és William Kent",
+  "src": "image1.png"
+},
+{
+  "name": "Stawberry Hill",
+  "author": "Horace Walpole",
+  "src": "image1.png"
+},
+{
+  "name": "Börtönök-sorozat",
+  "author": "Giovanni Battista Piranesi",
+  "src": "image1.png"
+},
+{
+  "name": "Piazza San Marco",
+  "author": "Canaletto",
+  "src": "image1.png"
+},
+{
+  "name": "Capriccio- klasszikus romok",
+  "author": "Giovanni Paolo Pannini",
+  "src": "image1.png"
 }
 ]
